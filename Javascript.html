@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,minimum-scale=1"
+    />
+    <title>
+      Estudando e Praticando JavaScript &heartsuit; - Rodrigo Developer &copy;
+    </title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        min-width: 320px;
+        min-height: 40vh;
+        background: linear-gradient(45deg, #9392cd, #d683ce) no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        background: #ecd6c4;
+        padding: 20px;
+
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px #f1f1f1;
+      }
+
+      button {
+        padding: 12px;
+        background: linear-gradient(40deg, royalblue, #000000);
+        color: #ecd6c4;
+        border-radius: 8px;
+        border: none;
+        font-size: 1em;
+      }
+      button:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 10px #f1f1f1;
+        color: lightblue;
+        transition: all 0.5s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Externo</h1>
+      <button onclick="acao1()">Ação 1</button>
+      <button onclick="acao2()">Ação 2</button>
+      <button onclick="acao3()">Ação 3</button>
+      <button onclick="acao4()">Ação 4</button>
+      <section id="saida">
+        <p>Aqui vou registrar a saida dos cliques:</p>
+      </section>
+    </div>
+    <script src="Acoes.js"></script>
+  </body>
+</html>
